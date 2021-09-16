@@ -1,1 +1,12 @@
- 
+.header__option{
+display: flex;
+flex-direction: column;
+color: yellow;
+} 
+.header__lineOne{
+
+} 
+.header__lineTwo{
+
+} 
+

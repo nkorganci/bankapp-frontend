@@ -45,13 +45,15 @@ export default function Header() {
           <Button className={classes.button}>Product </Button>
           <Button className={classes.button}>Package </Button>
           <Button className={classes.button}>Contact </Button>
-          <div className={classes.spacer}></div>
-          <Link to="/login" className="header__link ">
+          <div className={classes.spacer}>
+                  <Link to="/login" className="header__link ">
             <div className="header__option">
               <span className="header__lineOne">Hello</span>
               <span className="header__lineTwo">Sign In</span>
             </div>
           </Link>
+          </div>
+    
         </Toolbar>
       </AppBar>
     </div>
