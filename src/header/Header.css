@@ -1,12 +1,10 @@
-.header__option{
-display: flex;
-flex-direction: column;
-color: yellow;
-} 
-.header__lineOne{
+.header-container{
+    background-color: white;
+}
 
-} 
-.header__lineTwo{
-
-} 
-
+.row{
+    border: 1px solid red;
+}
+.col{
+    border: 1px solid rgb(14, 18, 212);
+}
